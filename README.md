@@ -1,6 +1,5 @@
 # 🧠 ChurnAI — Full Stack Churn Prediction Dashboard
 
-Tera poora Python churn prediction code ab ek **beautiful web dashboard** ke saath connected hai!
 
 ---
 
@@ -8,11 +7,11 @@ Tera poora Python churn prediction code ab ek **beautiful web dashboard** ke saa
 
 ```
 churnai/
-├── app.py              ← Flask backend (tera original code yahan hai)
+├── app.py              ← Flask backend 
 ├── requirements.txt    ← Saari dependencies
 ├── README.md
 └── templates/
-    └── index.html      ← Frontend dashboard (finance-style UI)
+    └── index.html      ← Frontend dashboard 
 ```
 
 ---
@@ -43,12 +42,12 @@ http://localhost:5000
 
 ---
 
-## ✅ Kya Kya Hoga (Full Pipeline)
+## ✅ Full Pipeline
 
-| Step | Kya hoga |
+| Step | Work flow |
 |------|---------|
 | 1 | CSV files load + preview |
-| 2 | Telco + Netflix preprocessing (tera exact code) |
+| 2 | Telco + Netflix preprocessing  |
 | 3 | Merged dataset + feature engineering |
 | 4 | EDA graphs (Graph 1 & 2) |
 | 5 | Feature selection (correlation threshold) |
@@ -66,7 +65,7 @@ http://localhost:5000
 ## 📊 Dashboard Sections
 
 - **Dashboard** — Metrics + live log + mini leaderboard
-- **All 8 Graphs** — Tabs se switch karo between all graphs
+- **All 8 Graphs** — switch between all graphs
 - **Recommendations** — At-risk customers with retention strategy
 - **Leaderboard** — Full model metrics table
 
@@ -74,11 +73,11 @@ http://localhost:5000
 
 ## ⚠️ Optional Libraries
 
-Yeh install karo for best results:
-- `xgboost` → XGBoost model (warna GradientBoosting use hoga)
-- `imbalanced-learn` → SMOTE (warna manual fallback)
-- `shap` → SHAP values (warna permutation importance)
-- `statsmodels` → ARIMA/SARIMA (warna linear trend)
+Install these for best results:
+- `xgboost` → XGBoost model 
+- `imbalanced-learn` → SMOTE 
+- `shap` → SHAP values 
+- `statsmodels` → ARIMA/SARIMA 
 
 ---
 
