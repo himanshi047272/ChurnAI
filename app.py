@@ -1,6 +1,5 @@
 """
 ChurnAI — Flask Backend
-Tera exact churn prediction code yahan run hoga.
 Run: python app.py
 Then open: http://localhost:5000
 """
